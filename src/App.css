@@ -1,0 +1,34 @@
+.App {
+	text-align: center;
+}
+
+div.main-container {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	flex-direction: row;
+	flex-basis: auto;
+	background-color: #555555;
+	text-align: center;
+}
+
+div.drawer-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: inherit;
+	flex-basis: auto;
+	flex-grow: 0;
+	background-color: grey;
+	min-width: 20rem;
+}
+
+div.map-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: inherit;
+	flex-basis: auto;
+	flex-grow: 1;
+	background-color: tan;
+}
